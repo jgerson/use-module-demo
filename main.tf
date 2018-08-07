@@ -14,5 +14,5 @@ module "basewebsite" {
 }
 
 output "ip_addresses" {
-  value = "${module.website.address}"
+  value = "${module.basewebsite.address}"
 }
