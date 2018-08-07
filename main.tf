@@ -1,6 +1,7 @@
 //--------------------------------------------------------------------
 // Variables
 variable "basewebsite_env" {}
+variable "basewebsite_size" {}
 
 //--------------------------------------------------------------------
 // Modules
@@ -10,7 +11,7 @@ module "basewebsite" {
 
   azure_region = "eastus"
   env = "${var.basewebsite_env}"
-  size = "medium"
+  size = "${var.basewebsite_size}"
 }
 
 output "ip_addresses" {
