@@ -1,5 +1,5 @@
 //-----------------------------------------------------------------
-// Variables
+// Variable
 variable "basewebsite_env" {}
 variable "basewebsite_size" {}
 
