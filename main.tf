@@ -9,7 +9,7 @@ module "basewebsite" {
   source  = "app.terraform.io/jgersonorg1/basewebsite/azurerm"
   version = "1.0"
 
-  azure_region = "eastus"
+  azure_region = "centraltus"
   env = "${var.basewebsite_env}"
   size = "${var.basewebsite_size}"
 }
