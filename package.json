@@ -1,0 +1,19 @@
+{
+  "name": "fairy-friends",
+  "version": "1.0.0",
+  "description": "A kids game where you design, raise, and enter a magical fairy in the Grand Beauty Bloom competition, with Claude powering the fairy's personality.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
